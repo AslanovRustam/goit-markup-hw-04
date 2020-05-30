@@ -170,7 +170,7 @@ color: var(--secondary-text-color);
     text-decoration: none;
     margin-left: 10px;
 }
-.list-link.mail::before{
+/* .list-link.mail::before{
     content: "";
     width: 16px;
     height: 12px;
@@ -178,6 +178,15 @@ color: var(--secondary-text-color);
     background-size: contain;
     background-position: center;
     margin-right: 10px;
+} */
+.header-mail{
+    margin-right: 10px;
+    width: 16px;
+    height: 11px;
+    fill: var(--primary-text-color);
+}
+.header-mail:hover, .header-mail:focus{
+    fill: var(--accent-color);
 }
 .list-link.phone::before{
     content: "";
@@ -223,7 +232,7 @@ h2{
 
 .hero-tittle{
     margin-top: 0;
-    margin-bottom: 46px;
+    margin-bottom: 30px;
 }
 .section-hero-variants{
     display: inline-block;
