@@ -185,10 +185,16 @@ color: var(--secondary-text-color);
     height: 11px;
     fill: var(--primary-text-color);
 }
-.header-mail:hover, .header-mail:focus{
+.header-mail:hover, .header-mail:focus, .header-phone:hover, .header-phone:focus {
     fill: var(--accent-color);
 }
-.list-link.phone::before{
+.header-phone{
+    margin-right: 10px;
+    width: 10px;
+    height: 15px;
+    fill: var(--primary-text-color);
+}
+/* .list-link.phone::before{
     content: "";
     width: 10px;
     height: 15px;
@@ -196,7 +202,7 @@ color: var(--secondary-text-color);
     background-size: contain;
     background-position: center;
     margin-right: 10px;
-}
+} */
 .list.list-nav li:not(:first-child) {
     margin-left: 50px;
 }
@@ -313,7 +319,6 @@ h2{
     background-color: var(--our-team-bg-color);
     background-repeat: no-repeat;
     background-position: center;
-
 }
 .radar::before{
     background-image: url(../images/antenna\ 1\ \(2\).svg);
@@ -428,6 +433,31 @@ h2{
     text-align: center;
     letter-spacing: 0.03em;
 }
+.team-icon{
+    display: flex;
+    width: 44px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 0;
+}
+.team-icon a{
+    margin: 0;
+    padding: 0;
+}
+.team-icon:hover, .team-icon:focus{
+    background-color: var(--accent-color);
+    }
+.link-icon{
+    width: 20px;
+    height: 20px;
+    fill: var(--clients-color)
+}
+.link-icon:hover, .link-icon:focus{
+    fill: var(--white-text-color);
+}
+
 .list-information{
     margin: 0;
     /* font-weight: 400; */
@@ -452,7 +482,45 @@ h2{
 .permanent-clients{
     padding: 0;
 }
-.company-1{
+.company{
+    display: block;
+    width: 170px;
+    height: 90px;
+    border: 1px solid var(--clients-color);
+    border-radius: 4px;
+    fill: var(--clients-color);
+}
+.company:hover, .company:focus{
+    fill: var(--accent-color)
+}
+.logo1{
+    padding: 20px 63px;
+}
+.logo2{
+    padding: 19px 65px;
+}
+.logo3{
+    padding: 24px 64px;
+}
+.logo4{
+    padding: 24px 45px;
+}
+.logo5{
+    padding: 22px 55px;
+}
+.logo6{
+    padding: 22px 41px;
+}
+/* .header-mail{
+    margin-right: 10px;
+    width: 16px;
+    height: 11px;
+    fill: var(--primary-text-color);
+}
+.header-mail:hover, .header-mail:focus, .header-phone:hover, .header-phone:focus {
+    fill: var(--accent-color);
+} */
+/* .company-1{
     padding: 21px 65px;
     max-width: 170px;
 }
@@ -475,7 +543,7 @@ h2{
 .company-6{
     padding: 23px 43px;
     max-width: 170px;
-}
+} */
 .container-end{
     background-color: var(--footer-bg-color);    
 }
@@ -548,6 +616,29 @@ h2{
 .social-links{
     padding-left: 0;
 }
+.team-icon.end{
+    display: flex;
+    width: 44px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 0;
+    margin-right: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.team-icon.end:last-child{
+    margin: 0;
+}
+.team-icon.end:hover, .team-icon.end:focus{
+    background-color: var(--accent-color);
+    }
+.link-icon.end{
+    width: 20px;
+    height: 20px;
+    fill: var(--white-text-color)
+}
+
 .footer-end{
     padding-top: 18px;
     padding-bottom: 21px;

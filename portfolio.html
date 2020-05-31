@@ -21,16 +21,25 @@
           </ul>
         </nav>
        
-      <ul class="list list-nav">
-        <li class="list-nav img">
-          <img src="./images/envelope(hover).svg" alt="the envelope" />
-          <a href="mailto:info@devstudio.com" class="list-link">info@devstudio.com</a>
-        </li>
-        <li class="list-nav img">
-          <img src="./images/Vector.svg" alt="mobile" />
-          <a href="tel:+380961111111" class="list-link">+38 096 111 11 11</a>
-        </li>
-      </ul>
+        <ul class="list list-nav">
+          <li class="list-nav img">
+            <!-- <img src="./images/envelope(hover).svg" alt="the envelope" /> -->
+            
+            <a href="mailto:info@devstudio.com" class="list-link mail">
+              <svg class="header-mail">
+                <use href="./images/symbol-defs.svg#icon-envelopehover"></use>
+              </svg>
+              info@devstudio.com</a>
+          </li>
+          <li class="list-nav img">
+            <!-- <img src="./images/Vector.svg" alt="mobile" /> -->
+            <a href="tel:+380961111111" class="list-link phone">
+              <svg class="header-phone">
+                <use href="./images/symbol-defs.svg#icon-Vector"></use>
+              </svg>
+              +38 096 111 11 11</a>
+          </li>
+        </ul>
     </div>
     </header>
     <main>
@@ -143,31 +152,44 @@
        <div>
          <b class="footer-tittle">ПРИСОЕДИНЯЙТЕСЬ</b>
          <ul class="list social-links">
-           <li>
-             <a href="https://www.instagram.com/">
-               <img src="./images/instagram.svg" alt="instagram"
-             /></a>
-           </li>
-           <li>
-             <a href="https://twitter.com/"
-               ><img src="./images/twitter.svg" alt="twitter"
-             /></a>
-           </li>
-           <li>
-             <a href="https://www.facebook.com/"
-               ><img src="./images/facebook.svg" alt="facebook"
-             /></a>
-           </li>
-           <li>
-             <a href="https://www.linkedin.com/"
-               ><img src="./images/linkedin.svg" alt="linkedin"
-             /></a>
-           </li>
+          <li class="team-icon end">
+            <a href="https://www.instagram.com/" >
+              <svg class="link-icon end">
+                <use href="./images/symbol-defs.svg#icon-instagram"></use>
+              </svg>
+              <!-- <img src="./images/instagram.svg" alt="instagram"
+            /> -->
+          </a>
+          </li>
+          <li class="team-icon end">
+            <a href="https://twitter.com/">
+              <svg class="link-icon end">
+                <use href="./images/symbol-defs.svg#icon-twitter"></use>
+              </svg>
+              <!-- <img src="./images/twitter.svg" alt="twitter"/> -->
+          </a>
+          </li>
+          <li class="team-icon end">
+            <a href="https://www.facebook.com/">
+              <!-- <img src="./images/facebook.svg" alt="facebook"/> -->
+              <svg class="link-icon end">
+                <use href="./images/symbol-defs.svg#icon-facebook"></use>
+              </svg>
+          </a>
+          </li>
+          <li class="team-icon end">
+            <a href="https://www.linkedin.com/">
+              <!-- <img src="./images/linkedin.svg" alt="linkedin"/> -->
+              <svg class="link-icon end">
+                <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+              </svg>
+          </a>
+          </li>
          </ul>
        </div>
        <div>
          <b class="footer-tittle">Подпишитесь на рассылку</b>
-         <a href="" class="button">Подписаться</a>
+         <a href="" class="button signature">Подписаться</a>
          </div>
       </div>
        <p class="footer-end">2020 | Developed by GoIT Students </p>
