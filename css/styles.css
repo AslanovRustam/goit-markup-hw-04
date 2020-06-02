@@ -167,6 +167,7 @@ color: var(--secondary-text-color);
     display: inline-flex;
     align-items: center;
     color: var(--primary-text-color);
+    fill: var(--primary-text-color);
     text-decoration: none;
     margin-left: 10px;
 }
@@ -183,16 +184,16 @@ color: var(--secondary-text-color);
     margin-right: 10px;
     width: 16px;
     height: 11px;
-    fill: var(--primary-text-color);
+    /* fill: var(--primary-text-color); */
 }
-.header-mail:hover, .header-mail:focus, .header-phone:hover, .header-phone:focus {
+/* .header-mail:hover, .header-mail:focus, .header-phone:hover, .header-phone:focus {
     fill: var(--accent-color);
-}
+} */
 .header-phone{
     margin-right: 10px;
     width: 10px;
     height: 15px;
-    fill: var(--primary-text-color);
+    /* fill: var(--primary-text-color); */
 }
 /* .list-link.phone::before{
     content: "";
@@ -209,6 +210,7 @@ color: var(--secondary-text-color);
 
 .list-link:hover, .list-link:focus {
     color: var(--accent-color) ;
+    fill: var(--accent-color);
 }
 .link {
     text-decoration: none;
@@ -435,31 +437,28 @@ h2{
 }
 .link-social{
     display: flex;
-}
-.team-icon{
-    display: flex;
     width: 44px;
     height: 44px;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    /* padding: 0; */
+    fill: var(--clients-color)
 }
-.team-icon a{
-    margin: 0;
-    padding: 0;
-}
-.team-icon:hover, .team-icon:focus{
+.link-social:hover, .link-social:focus{
     background-color: var(--accent-color);
-    }
+    fill: var(--white-text-color);
+}
+.team-icon{
+    width: 44px;
+    height: 44px;
+}
 .link-icon{
     width: 20px;
     height: 20px;
-    fill: var(--clients-color)
 }
-.link-icon:hover, .link-icon:focus{
+/* .link-icon:hover, .link-icon:focus{
     fill: var(--white-text-color);
-}
+} */
 
 .list-information{
     margin: 0;
@@ -700,6 +699,7 @@ img{
 .portfolio-button:hover, .portfolio-button:focus{
     color: var(--white-text-color);
     background-color: var(--accent-color);
+    cursor: pointer;
 }
 .portfolio-img{
     display: block;
